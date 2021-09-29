@@ -1,8 +1,9 @@
 {
-  "name": "SophiaMusic",
+  "name": "BalneeyMusic",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/dihanofficial/sophiamusic-v6",
+  "logo": "https://telegra.ph/file/c59cc2681795b61f8fc2b.jpg",
+  "repository": "https://github.com/GLITTERneey/BALNEEYMusic-V6",
   "stack": "container",
   "buildpacks": [
    {
@@ -30,12 +31,12 @@
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
-      "value": "dihan_official"
+      "value": "Virtuallnihboss"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
       "required": false,
-      "value": "SophiaMusic v6"
+      "value": "BalneeyMusic V6"
     },
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer's assistant Username without @.",
@@ -49,12 +50,12 @@
     "BG_IMAGE": {
       "description": "BG image of bot (Use transparent one) [IGNORE].",
       "required": false,
-      "value": "https://telegra.ph/file/3654bea3e5284b442f932.png"
+      "value": "https://telegra.ph/file/5060c9d08770c31e0acdc.png"
     },     
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
-      "value": "dihanofficial"
+      "value": "storeglitter"
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
