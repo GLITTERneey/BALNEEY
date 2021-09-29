@@ -21,17 +21,17 @@ I play music on Telegram's Voice Chats.
             [
                 [
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url="https://github.com/dihanofficial/sophiamusic-v6")
+                        "🛠 Source Code 🛠", url="https://t.me/Biarenakliatnyaaa")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Updates Channel", url="https://t.me/dihanofficial"
+                        "💬 Updates Channel", url="https://t.me/storeglitter"
                     ),
                     InlineKeyboardButton(
-                        "💻 Support Group", url="https://t.me/dihan_official"
+                        "💻 Support Group", url="https://t.me/Virtuallnihboss"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ Add Me To Your Group ➕", url="https://t.me/SophiaSLBot?startgroup=true"
+                        "➕ Add Me To Your Group ➕", url="https://t.me/DemusGlitterBot?startgroup=true"
                     )]
             ]
         ),
@@ -45,7 +45,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Updates Channel", url="https://t.me/dihanofficial")
+                        "💬 Updates Channel", url="https://t.me/storeglitter")
                 ]
             ]
         )
