@@ -21,17 +21,17 @@ I play music on Telegram's Voice Chats.
             [
                 [
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url="https://t.me/Biarenakliatnyaaa")
+                        "🥂 Donatur 🥂", url="https://t.me/Biarenakliatnyaaa")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Updates Channel", url="https://t.me/storeglitter"
+                        "💬 Channel", url="https://t.me/storeglitter"
                     ),
                     InlineKeyboardButton(
-                        "💻 Support Group", url="https://t.me/Virtuallnihboss"
+                        "💻 Group", url="https://t.me/Virtuallnihboss"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ Add Me To Your Group ➕", url="https://t.me/DemusGlitterBot?startgroup=true"
+                        "➕ Tambahkan Saya Ke Group ➕", url="https://t.me/DemusGlitterBot?startgroup=true"
                     )]
             ]
         ),
