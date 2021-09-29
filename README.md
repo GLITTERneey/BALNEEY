@@ -15,6 +15,7 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/GLITTERneey/BALNEEYMusic-V6)
 
+[![Run on Repl.it](https://repl.it/badge/github/vckyou/PyrogramString)](https://repl.it/@vckyou/PyrogramString?lite=1&outputonly=1)
 
 
 ### Commands 🛠
