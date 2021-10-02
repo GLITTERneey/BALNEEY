@@ -1,9 +1,9 @@
 {
-  "name": "BalneeyMusic",
+  "name": "Music Balneey V6",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
   "logo": "https://telegra.ph/file/c59cc2681795b61f8fc2b.jpg",
-  "repository": "https://github.com/GLITTERneey/BALNEEYMusic-V6",
+  "repository": "https://github.com/GLITTERneey/BALNEEY",
   "stack": "container",
   "buildpacks": [
    {
