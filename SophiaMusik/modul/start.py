@@ -11,7 +11,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b> Hi there,👋 {message.from_user.first_name}!
-\nThis is Sophia Music Bot.
+\nThis is Glitter Music Bot.
 I play music on Telegram's Voice Chats.
 \nFo More Help Use Buttons Below:
  </b>""",
