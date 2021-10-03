@@ -12,7 +12,7 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b> Hi there,👋 {message.from_user.first_name}!
 \nThis is Glitter Music Bot.
-I play music on Telegram's Voice Chats.
+Saya memutar musik di Obrolan Suara Telegram.
 \nFo More Help Use Buttons Below:
  </b>""",
       
