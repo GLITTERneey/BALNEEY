@@ -583,7 +583,7 @@ async def play(_, message: Message):
                 InlineKeyboardButton("⏭", "skip"),
             ],
            [
-                InlineKeyboardButton("✨ Groups", url="https://t.me/Jarak_Virtual),
+                InlineKeyboardButton("✨ Groups", url="https://t.me/Jarak_Virtual"),
                 InlineKeyboardButton("📣 Channel", url="https://t.me/storeglitter"),
             ],
             [InlineKeyboardButton("👑 OWNER", url="https://t.me/Biarenakliatnyaaa")],
@@ -668,7 +668,7 @@ async def play(_, message: Message):
                 InlineKeyboardButton("⏭", "skip"),
             ],
             [
-                InlineKeyboardButton(""✨ Groups", url="https://t.me/Jarak_Virtual"),
+                InlineKeyboardButton("✨ Groups", url="https://t.me/Jarak_Virtual"),
                 InlineKeyboardButton("📣 Channel", url="https://t.me/storeglitter"),
             ],
             [InlineKeyboardButton("👑 OWNER", url="https://t.me/Biarenakliatnyaaa")],
