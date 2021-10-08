@@ -821,7 +821,7 @@ async def ytplay(_, message: Message):
                 InlineKeyboardButton("📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/storeglitter"),
                 InlineKeyboardButton("✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Jarak_Virtual"),
             ],
-            [InlineKeyboardButton("👑 Owner", url=f"https://t.me/Biarenakliatnyaaa)],
+            [InlineKeyboardButton("👑 Owner", url=f"https://t.me/Biarenakliatnyaaa")],
         ]
     )
     requested_by = message.from_user.first_name
