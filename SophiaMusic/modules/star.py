@@ -21,17 +21,17 @@ Saya memutar musik di Obrolan Suara Telegram.
             [
                 [
                     InlineKeyboardButton(
-                        "🥂 Donatur 🥂", url="https://t.me/Biarenakliatnyaaa")
+                        "🥂 DONATUR 🥂", url="https://t.me/Biarenakliatnyaaa")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Channel", url="https://t.me/storeglitter"
+                        "💬 CHANNEL", url="https://t.me/storeglitter"
                     ),
                     InlineKeyboardButton(
-                        "💻 Group", url="https://t.me/Virtuallnihboss"
+                        "💻 GROUP", url="https://t.me/Virtuallnihboss"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ Tambahkan Saya Ke Group ➕", url="https://t.me/DemusGlitterBot?startgroup=true"
+                        "➕ TAMBAHKAN SAYA KE GROUP ➕", url="https://t.me/DemusGlitterBot?startgroup=true"
                     )]
             ]
         ),
@@ -45,7 +45,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Updates Channel", url="https://t.me/storeglitter")
+                        "💬 UPDATES CHANNEL", url="https://t.me/storeglitter")
                 ]
             ]
         )
