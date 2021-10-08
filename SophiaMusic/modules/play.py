@@ -239,7 +239,7 @@ async def hfmm(_, message):
     status = message.text.split(None, 1)[1]
     message.chat.id
     if status == "ON" or status == "on" or status == "On":
-        lel = await message.reply("`Sabar Ya Kntll...`")
+        lel = await message.reply("`SABAY YA KNTL...`")
         if not message.chat.id in DISABLED_GROUPS:
             await lel.edit("Pemutar Musik Sudah Diaktifkan Di Obrolan Ini")
             return
@@ -249,7 +249,7 @@ async def hfmm(_, message):
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
-        lel = await message.reply("`Sabar Ya Kntll...`")
+        lel = await message.reply("`SABAR YA KNTL...`")
         
         if message.chat.id in DISABLED_GROUPS:
             await lel.edit("Pemutar Musik Sudah dimatikan Dalam Obrolan Ini")
@@ -443,7 +443,7 @@ async def play(_, message: Message):
     global useer
     if message.chat.id in DISABLED_GROUPS:
         return    
-    lel = await message.reply("🔄 **Memproses Suara**")
+    lel = await message.reply("🔄 **MEMPEROSES DLU LAH**")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
 
@@ -498,7 +498,7 @@ async def play(_, message: Message):
         )
         return
     text_links=None
-    await lel.edit("🔎 **Temuan**")
+    await lel.edit("🔎 **PENCARIAN**")
     if message.reply_to_message:
         entities = []
         toxt = message.reply_to_message.text or message.reply_to_message.caption
@@ -551,7 +551,7 @@ async def play(_, message: Message):
         )
     elif urls:
         query = toxt
-        await lel.edit("🎵 **Mengunduh..**")
+        await lel.edit("🎵 **MENGUNDUH..**")
         ydl_opts = {"format": "bestaudio/best"}
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
@@ -597,7 +597,7 @@ async def play(_, message: Message):
         for i in message.command[1:]:
             query += " " + str(i)
         print(query)
-        await lel.edit("🎵 **Mengunduh..**")
+        await lel.edit("🎵 **MENGUNDUH..**")
         ydl_opts = {"format": "bestaudio/best"}
         
         try:
@@ -606,7 +606,7 @@ async def play(_, message: Message):
           await lel.edit("Beri aku sesuatu untuk dimainkan")
         # Looks like hell. Aren't it?? FUCK OFF
         try:
-            toxxt = "**Pilih lagu yang ingin Anda putar**\n\n"
+            toxxt = "**PILIH LAGU YANG INGIN ANDA PUTAR YA BANGSAT**\n\n"
             j = 0
             useer=user_name
             emojilist = ["1️⃣","2️⃣","3️⃣","4️⃣","5️⃣",]
@@ -777,7 +777,7 @@ async def ytplay(_, message: Message):
             f"<i> {user.first_name} Userbot tidak ada dalam obrolan ini, Minta admin kirim /mainkan perintah untuk pertama kali atau tambahkan {user.first_name} manually</i>"
         )
         return
-    await lel.edit("🔎 **Temuan**")
+    await lel.edit("🔎 **PENCARIAN**")
     user_id = message.from_user.id
     user_name = message.from_user.first_name
      
@@ -821,7 +821,7 @@ async def ytplay(_, message: Message):
                 InlineKeyboardButton("📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/storeglitter"),
                 InlineKeyboardButton("✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Jarak_Virtual"),
             ],
-            [InlineKeyboardButton("👑 Owner", url=f"https://t.me/Biarenakliatnyaaa")],
+            [InlineKeyboardButton("👑 OWNER", url=f"https://t.me/Biarenakliatnyaaa")],
         ]
     )
     requested_by = message.from_user.first_name
@@ -965,7 +965,7 @@ async def jiosaavn(client: Client, message_: Message):
                 InlineKeyboardButton("📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/storeglitter"),
                 InlineKeyboardButton("✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Jarak_Virtual"),
             ],
-            [InlineKeyboardButton("👑 Owner", url=f"https://t.me/Biarenakliatnyaaa")],
+            [InlineKeyboardButton("👑 OWNER", url=f"https://t.me/Biarenakliatnyaaa")],
         ]
     )
     file_path = await convert(wget.download(slink))
@@ -987,7 +987,7 @@ async def jiosaavn(client: Client, message_: Message):
         )
 
     else:
-        await res.edit_text(f"{bn}=▶️ Playing.....")
+        await res.edit_text(f"{bn}=▶️ BERMAIN.....")
         que[chat_id] = []
         qeue = que.get(chat_id)
         s_name = sname
@@ -1029,7 +1029,7 @@ async def lol_cb(b, cb):
     if cb.from_user.id != useer_id:
         await cb.answer("Anda bukan orang yang meminta untuk memutar lagu!", show_alert=True)
         return
-    await cb.message.edit("SABAR DLU YAA KNTL")
+    await cb.message.edit("SABAR DLU YA KNTL")
     x=int(x)
     try:
         useer_name = cb.message.reply_to_message.from_user.first_name
@@ -1072,7 +1072,7 @@ async def lol_cb(b, cb):
                 InlineKeyboardButton("📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/storeglitter"),
                 InlineKeyboardButton("✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Jarak_Virtual"),
             ],
-            [InlineKeyboardButton("👑 Owner", url=f"https://t.me/Biarenakliatnyaaa")],
+            [InlineKeyboardButton("👑 OWNER", url=f"https://t.me/Biarenakliatnyaaa")],
         ]
     )
     requested_by = useer_name
