@@ -21,7 +21,7 @@ async def addchannel(client, message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "MUSICGLITTER"
 
     try:
         await USER.join_chat(invitelink)
@@ -33,8 +33,8 @@ async def addchannel(client, message):
     except Exception as e:
         print(e)
         await message.reply_text(
-            f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your group due to heavy join requests for userbot! Make sure user is not banned in group."
-            "\n\nOr manually add @Demusglitter to your Group and try again</b>",
+            f"<b>🛑 Kesalahan Tunggu Bangsat 🛑 \n User {user.first_name} tidak dapat bergabung dengan grup Anda karena banyaknya permintaan bergabung untuk userbot! Pastikan pengguna tidak dilarang di grup."
+            "\n\nOr manually add @Musicglitter ke Grup Anda dan coba lagi</b>",
         )
         return
     await message.reply_text(
@@ -95,7 +95,7 @@ async def addcchannel(client, message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "SophiaMusic"
+        user.first_name = "GLITTERMUSIC"
 
     try:
         await USER.join_chat(invitelink)
@@ -108,8 +108,8 @@ async def addcchannel(client, message):
     except Exception as e:
         print(e)
         await message.reply_text(
-            f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your channel due to heavy join requests for userbot! Make sure user is not banned in channel."
-            "\n\nOr manually add @dihanofficialassistant to your Group and try again</b>",
+            f"<b>🛑 Kesalahan Tunggu Bangsat 🛑 \n User {user.first_name} tidak dapat bergabung dengan channel Anda karena banyaknya permintaan bergabung untuk bot pengguna! Pastikan pengguna tidak dilarang di channel."
+            "\n\nOr tambahkan secara manual @Musicglitter ke Grup Anda dan coba lagi</b>",
         )
         return
     await message.reply_text(
