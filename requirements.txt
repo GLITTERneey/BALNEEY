@@ -18,4 +18,3 @@ wget
 motor
 dnspython
 bs4
-pyaml
