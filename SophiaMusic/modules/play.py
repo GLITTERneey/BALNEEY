@@ -1114,7 +1114,6 @@ async def lol_cb(b, cb):
         await b.send_photo(chat_id,
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"**🎬Name: **{title}\n **⏳Durasi: **{duration}\n **▶️ Sedang Mengkane Lagu Di Group** {cb.message.chat.title}",
-                   +f"🎧 **Request by:** {message.from_user.mention}",      
+            caption=f"**🎬Name: **{title}\n **⏳Durasi: **{duration}\n **▶️ Sedang Mengkane Lagu Di Group** {cb.message.chat.title}\n **🎧 Request by:** {message.from_user.mention}",     
         )
         os.remove("final.png")
