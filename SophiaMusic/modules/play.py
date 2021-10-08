@@ -1,5 +1,5 @@
 
-""" Balneey Music V1 """
+""" BALNEEY MUSIC V1 """
 
 import json
 import os
