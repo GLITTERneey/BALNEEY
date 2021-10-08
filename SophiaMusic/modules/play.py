@@ -615,7 +615,7 @@ async def play(_, message: Message):
                 toxxt += f"{emojilist[j]} **Title - [{results[j]['title']}](https://youtube.com{results[j]['url_suffix']})**\n"
                 toxxt += f" ├ **⏱ Duration** - {results[j]['duration']}\n"
                 toxxt += f" ├ **💡 Views** - {results[j]['views']}\n"
-                toxxt += f" └ **⚡ __Powered by Glitter__\n\n"
+                toxxt += f" └ **⚡ __Powered by GLITTER X__\n\n"
 
                 j += 1            
             koyboard = InlineKeyboardMarkup(
@@ -838,7 +838,7 @@ async def ytplay(_, message: Message):
         qeue.append(appendable)
         await message.reply_photo(
             photo="final.png",
-            caption=f"#⃣ Your requested song **queued** at position {position}!",
+            caption=f"#⃣ Lagu Yang Anda Minta, Sedang Antri Di Posisi {position}!",
             reply_markup=keyboard,
         )
         os.remove("final.png")
