@@ -179,9 +179,9 @@ def r_ply(type_):
                 InlineKeyboardButton("⏭", "skip"),
             ],
             [
-                InlineKeyboardButton("🎚 Playlist ", "playlist"),
+                InlineKeyboardButton("📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/storeglitter"),
             ],
-            [InlineKeyboardButton(" Close Menu 🎛", "cls")],
+            [InlineKeyboardButton("✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Jarak_Virtual")],
         ]
     )
     return mar
@@ -396,9 +396,9 @@ async def m_cb(b, cb):
                 InlineKeyboardButton("⏭", "skip"),
             ],
             [
-                InlineKeyboardButton("🎚 Playlist ", "playlist"),
+                InlineKeyboardButton("📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/storeglitter"),
             ],
-            [InlineKeyboardButton(" Close Menu 🎛", "cls")],
+            [InlineKeyboardButton("✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Jarak_Virtual")],
         ]
     )
         await cb.message.edit(stats, reply_markup=marr)
@@ -530,7 +530,7 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🎚 Playlist ", callback_data="playlist"),
+                    InlineKeyboardButton("🎚 playlist ", callback_data="playlist"),
                     InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
                 ],
                 [InlineKeyboardButton(text=" Close Menu 🎛", callback_data="cls")],
@@ -583,10 +583,10 @@ async def play(_, message: Message):
                 InlineKeyboardButton("⏭", "skip"),
             ],
            [
-                InlineKeyboardButton("🎚 Playlist ", "playlist"),
-                InlineKeyboardButton("Settings ⚙", "menu"),
+                InlineKeyboardButton("✨ Groups", url="https://t.me/Jarak_Virtual),
+                InlineKeyboardButton("📣 Channel", url="https://t.me/storeglitter"),
             ],
-            [InlineKeyboardButton(" Close Menu 🎛", "cls")],
+            [InlineKeyboardButton("👑 OWNER", url="https://t.me/Biarenakliatnyaaa")],
         ]
     )
         requested_by = message.from_user.first_name
@@ -606,16 +606,16 @@ async def play(_, message: Message):
           await lel.edit("Beri aku sesuatu untuk dimainkan")
         # Looks like hell. Aren't it?? FUCK OFF
         try:
-            toxxt = "**Pilih lagu yang ingin Anda putary**\n\n"
+            toxxt = "**Pilih lagu yang ingin Anda putar**\n\n"
             j = 0
             useer=user_name
             emojilist = ["1️⃣","2️⃣","3️⃣","4️⃣","5️⃣",]
 
             while j < 5:
                 toxxt += f"{emojilist[j]} **Title - [{results[j]['title']}](https://youtube.com{results[j]['url_suffix']})**\n"
-                toxxt += f" ├ **Duration** - {results[j]['duration']}\n"
-                toxxt += f" ├ **Views** - {results[j]['views']}\n"
-                toxxt += f" ├ **Channel** - {results[j]['channel']}\n\n"
+                toxxt += f" ├ **⏱ Duration** - {results[j]['duration']}\n"
+                toxxt += f" ├ **💡 Views** - {results[j]['views']}\n"
+                toxxt += f" └ **⚡ __Powered by Glitter__\n\n"
 
                 j += 1            
             koyboard = InlineKeyboardMarkup(
@@ -668,10 +668,10 @@ async def play(_, message: Message):
                 InlineKeyboardButton("⏭", "skip"),
             ],
             [
-                InlineKeyboardButton("🎚 Playlist ", "playlist"),
-                InlineKeyboardButton("Settings ⚙", "menu"),
+                InlineKeyboardButton(""✨ Groups", url="https://t.me/Jarak_Virtual"),
+                InlineKeyboardButton("📣 Channel", url="https://t.me/storeglitter"),
             ],
-            [InlineKeyboardButton(" Close Menu 🎛", "cls")],
+            [InlineKeyboardButton("👑 OWNER", url="https://t.me/Biarenakliatnyaaa")],
         ]
     )
             requested_by = message.from_user.first_name
@@ -688,7 +688,7 @@ async def play(_, message: Message):
         qeue.append(appendable)
         await message.reply_photo(
             photo="final.png",
-            caption=f"#⃣ Your requested song **queued** at position {position}!",
+            caption=f"#⃣ **Lagu Yang Anda Minta, Sedang Antri Di Posisi** '{position}'",
             reply_markup=keyboard,
         )
         os.remove("final.png")
@@ -705,7 +705,7 @@ async def play(_, message: Message):
         try:
             callsmusic.pytgcalls.join_group_call(chat_id, file_path)
         except:
-            message.reply("Group Call is not connected or I can't join it")
+            message.reply("Panggilan Grup tidak terhubung atau saya tidak dapat bergabung")
             return
         await message.reply_photo(
             photo="final.png",
@@ -723,7 +723,7 @@ async def ytplay(_, message: Message):
     global que
     if message.chat.id in DISABLED_GROUPS:
         return
-    lel = await message.reply("🔄 **Sabar Ya KNTLL**")
+    lel = await message.reply("🔄 **SABAR YA KNTL**")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
 
@@ -786,7 +786,7 @@ async def ytplay(_, message: Message):
     for i in message.command[1:]:
         query += " " + str(i)
     print(query)
-    await lel.edit("🎵 **Sabar Ya Kntll**")
+    await lel.edit("🎵 **SABAR YA KNTL**")
     ydl_opts = {"format": "bestaudio/best"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -818,10 +818,10 @@ async def ytplay(_, message: Message):
                 InlineKeyboardButton("⏭", "skip"),
             ],
             [
-                InlineKeyboardButton("🎚 Playlist ", "playlist"),
-                InlineKeyboardButton("Settings ⚙", "menu"),
+                InlineKeyboardButton("📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/storeglitter"),
+                InlineKeyboardButton("✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Jarak_Virtual"),
             ],
-            [InlineKeyboardButton(" Close Menu 🎛", "cls")],
+            [InlineKeyboardButton("👑 Owner", url=f"https://t.me/Biarenakliatnyaaa)],
         ]
     )
     requested_by = message.from_user.first_name
@@ -873,13 +873,13 @@ async def jiosaavn(client: Client, message_: Message):
     global que
     if message_.chat.id in DISABLED_GROUPS:
         return    
-    lel = await message_.reply("🔄 **Sabar Ya Kntll**")
+    lel = await message_.reply("🔄 **SABAR YA KNTL**")
     administrators = await get_administrators(message_.chat)
     chid = message_.chat.id
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "GlitterMusic"
+        user.first_name = "GLITTERMUSIC"
     usar = user
     wew = usar.id
     try:
@@ -949,7 +949,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:    
         duuration= round(sduration / 60)
         if duuration > DURATION_LIMIT:
-            await cb.message.edit(f"Musik lebih lama dari {DURATION_LIMIT}min are not allowed to play")
+            await cb.message.edit(f"Musik lebih lama dari {DURATION_LIMIT}min tidak diperbolehkan bermain")
             return
     except:
         pass    
@@ -962,10 +962,10 @@ async def jiosaavn(client: Client, message_: Message):
                 InlineKeyboardButton("⏭", "skip"),
             ],
             [
-                InlineKeyboardButton("🎚 Playlist ", "playlist"),
-                InlineKeyboardButton("Settings ⚙", "menu"),
+                InlineKeyboardButton("📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/storeglitter"),
+                InlineKeyboardButton("✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Jarak_Virtual"),
             ],
-            [InlineKeyboardButton(" Close Menu 🎛", "cls")],
+            [InlineKeyboardButton("👑 Owner", url=f"https://t.me/Biarenakliatnyaaa")],
         ]
     )
     file_path = await convert(wget.download(slink))
@@ -983,7 +983,7 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"✯{bn}✯=#️⃣ Queued at position {position}",
+            caption=f"✯{bn}✯=#️⃣ **Lagu Yang Anda Minta, Sedang Antri Di Posisi** '{position}'",
         )
 
     else:
@@ -1023,11 +1023,11 @@ async def lol_cb(b, cb):
     try:
         x,query,useer_id = typed_.split("|")      
     except:
-        await cb.message.edit("Song Not Found")
+        await cb.message.edit("Lagu Tidak Ditemukan")
         return
     useer_id = int(useer_id)
     if cb.from_user.id != useer_id:
-        await cb.answer("You ain't the person who requested to play the song!", show_alert=True)
+        await cb.answer("Anda bukan orang yang meminta untuk memutar lagu!", show_alert=True)
         return
     await cb.message.edit("SABAR DLU YAA KNTL")
     x=int(x)
@@ -1069,10 +1069,10 @@ async def lol_cb(b, cb):
                 InlineKeyboardButton("⏭", "skip"),
             ],
             [
-                InlineKeyboardButton("🎚 Playlist ", "playlist"),
-                InlineKeyboardButton("Settings ⚙", "menu"),
+                InlineKeyboardButton("📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/storeglitter"),
+                InlineKeyboardButton("✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Jarak_Virtual"),
             ],
-            [InlineKeyboardButton(" Close Menu 🎛", "cls")],
+            [InlineKeyboardButton("👑 Owner", url=f"https://t.me/Biarenakliatnyaaa")],
         ]
     )
     requested_by = useer_name
@@ -1092,7 +1092,7 @@ async def lol_cb(b, cb):
         await cb.message.delete()
         await b.send_photo(chat_id,
             photo="final.png",
-            caption=f"#⃣  Lagu yang diminta oleh {r_by.mention} **queued** at position {position}!",
+            caption=f"#⃣  **Lagu yang diminta oleh {r_by.mention} Sedang Antri Di Posisi** '{position}'",
             reply_markup=keyboard,
         )
         os.remove("final.png")
@@ -1114,6 +1114,7 @@ async def lol_cb(b, cb):
         await b.send_photo(chat_id,
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"**🎬Lagu:**{title}\n **⏳Durasi:**{duration}\n **▶️Sekarang Bermain di** {cb.message.chat.title}",
+            caption=f"**🎬Name: **{title}\n **⏳Durasi: **{duration}\n **▶️ Sedang Mengkane Lagu Di Group** {cb.message.chat.title}",
+                   +f"🎧 **Request by:** {message.from_user.mention}",      
         )
         os.remove("final.png")
