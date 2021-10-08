@@ -40,7 +40,7 @@ Saya memutar musik di Obrolan Suara Telegram.
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""*Glitter Music Bot is alive.*""",
+      await message.reply_text("""**BOT MUSIC GLITTER AKTIF.**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
