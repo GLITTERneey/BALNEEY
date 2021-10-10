@@ -34,7 +34,7 @@ async def addchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>🛑 Kesalahan Tunggu Bangsat 🛑 \n User {user.first_name} tidak dapat bergabung dengan grup Anda karena banyaknya permintaan bergabung untuk userbot! Pastikan pengguna tidak dilarang di grup."
-            "\n\nOr manually add @Musicglitter ke Grup Anda dan coba lagi</b>",
+            "\n\nOr manually add assistance ke Grup Anda dan coba lagi</b>",
         )
         return
     await message.reply_text(
@@ -109,7 +109,7 @@ async def addcchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>🛑 Kesalahan Tunggu Bangsat 🛑 \n User {user.first_name} tidak dapat bergabung dengan channel Anda karena banyaknya permintaan bergabung untuk bot pengguna! Pastikan pengguna tidak dilarang di channel."
-            "\n\nOr tambahkan secara manual @Musicglitter ke Grup Anda dan coba lagi</b>",
+            "\n\nOr tambahkan secara manual assistance ke Grup Anda dan coba lagi</b>",
         )
         return
     await message.reply_text(
