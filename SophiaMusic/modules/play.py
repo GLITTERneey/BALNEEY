@@ -303,7 +303,7 @@ async def p_cb(b, cb):
 async def m_cb(b, cb):
     global que
     if (
-        cb.message.chat.title.startswith("Channel Music: ")
+        cb.message.chat.title.startswith("CHANNEL MUSIC: ")
         and chat.title[14:].isnumeric()
     ):
         chet_id = int(chat.title[13:])
@@ -459,7 +459,7 @@ async def play(_, message: Message):
     except:
         for administrator in administrators:
             if administrator == message.from_user.id:
-                if message.chat.title.startswith("Channel Music: "):
+                if message.chat.title.startswith("CHANNEL MUSIC: "):
                     await lel.edit(
                         "<b>Ingatlah untuk menambahkan pembantu ke saluran Andal</b>",
                     )
@@ -530,10 +530,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🎚 playlist ", callback_data="playlist"),
-                    InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
+                    InlineKeyboardButton("🎚 PLAYLIST ", callback_data="playlist"),
+                    InlineKeyboardButton("MENU ⏯ ", callback_data="menu"),
                 ],
-                [InlineKeyboardButton(text=" Close Menu 🎛", callback_data="cls")],
+                [InlineKeyboardButton(text=" CLOSE MENU 🎛", callback_data="cls")],
             ]
         )
         file_name = get_file_name(audio)
@@ -597,7 +597,7 @@ async def play(_, message: Message):
         for i in message.command[1:]:
             query += " " + str(i)
         print(query)
-        await lel.edit("🎵 **MENGUNDUH..**")
+        await lel.edit("🎵 **MENDOWNLOAD..**")
         ydl_opts = {"format": "bestaudio/best"}
         
         try:
@@ -606,7 +606,7 @@ async def play(_, message: Message):
           await lel.edit("Beri aku sesuatu untuk dimainkan")
         # Looks like hell. Aren't it?? FUCK OFF
         try:
-            toxxt = "**PILIH LAGU YANG INGIN ANDA PUTAR YA BANGSAT**\n\n"
+            toxxt = "**PILIH LAGU YANG INGIN LU PUTAR YA BANGSAT**\n\n"
             j = 0
             useer=user_name
             emojilist = ["1️⃣","2️⃣","3️⃣","4️⃣","5️⃣",]
@@ -888,7 +888,7 @@ async def jiosaavn(client: Client, message_: Message):
     except:
         for administrator in administrators:
             if administrator == message_.from_user.id:
-                if message_.chat.title.startswith("Channel Music: "):
+                if message_.chat.title.startswith("CHANNEL MUSIC: "):
                     await lel.edit(
                         "<b>Ingatlah untuk menambahkan pembantu ke saluran Anda</b>",
                     )
@@ -916,7 +916,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Kesalahan Tunggu Bangsat 🔴 \nUser {user.first_name} tidak dapat bergabung dengan grup Anda karena banyaknya permintaan untuk bot pengguna! Pastikan pengguna tidak dilarang di grup."
-                        "\n\nOr manually add @Demusglitter ke Grup Anda dan coba lagi</b>",
+                        "\n\nOr tambahkan asisten ke Grup Anda dan coba lagi</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -1114,6 +1114,6 @@ async def lol_cb(b, cb):
         await b.send_photo(chat_id,
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"**🎬Name: **{title}\n **⏳Durasi: **{duration}\n **▶️ Sedang Mengkane Lagu Di Group** {cb.message.chat.title}\n **🎧 Request by:** {message.from_user.mention}",     
+            caption=f"**🎬 NAME: **{title}\n **⏳ DURASI: **{duration}\n **▶️ Sedang Mengkane Lagu Di Group** {cb.message.chat.title}\n **🎧 Request by:** {message.from_user.mention}",     
         )
         os.remove("final.png")
