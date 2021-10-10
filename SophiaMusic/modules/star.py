@@ -27,11 +27,11 @@ Saya memutar musik di Obrolan Suara Telegram.
                         "💬 CHANNEL", url="https://t.me/storeglitter"
                     ),
                     InlineKeyboardButton(
-                        "💻 GROUP", url="https://t.me/Virtuallnihboss"
+                        "💻 GROUP", url="https://t.me/Virtualllnihsad"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ TAMBAHKAN SAYA KE GROUP ➕", url="https://t.me/DemusGlitterBot?startgroup=true"
+                        "➕ TAMBAHKAN SAYA KE GROUP ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                     )]
             ]
         ),
@@ -40,7 +40,7 @@ Saya memutar musik di Obrolan Suara Telegram.
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**BOT MUSIC GLITTER AKTIF.**""",
+      await message.reply_text("""**✨ {PROJECT_NAME} SEDANG ONLINE ✨**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
