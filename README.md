@@ -1,8 +1,18 @@
-<h2 align="centre">BALNEEY MUSIC 🎵</h2>
+<h2 align="centre">BALNEEY MUSIC </h2>
 
-<p align="center">
-  <img src="https://telegra.ph/file/c59cc2681795b61f8fc2b.jpg">
+### Bot yang dapat memutar musik di Grup Telegram dan Obrolan Suara Channel
+
+### tersedia di telegram sebagai [KAYOSHIMUSIC](https://t.me/DemusGlitterBot)
+
+<h4 align="center">A Powerful, Smart And Simple Group Manager <br> ... Written with AioGram , Pyrogram and Telethon...</h4>
+<p align='center'>
+  <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat-square&logo=python&color=blue" /> </a>
+  <a href="https://github.com/Sadew451/NatsukiMusic/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" /> </a>
 </p>
+<p align="center"><a href="https://t.me/NatsukiSupport_Official"><img src="https://telegra.ph/file/f652fef33e7e39386d31b.jpg" width="400"></a></p>
+<p align="center">
+    <a href="https://github.com/sadew451/NatsukiMusic/commits/SadewJayasekara"> <img src="https://img.shields.io/github/last-commit/sadew451/NatsukiMusic?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
+<a href="https://github.com/sadew451/NatsukiMusic/network/members"> <img src="https://img.shields.io/github/forks/sadew451/NatsukiMusic?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
 
 <h3>Requirements 📝</h3>
 
