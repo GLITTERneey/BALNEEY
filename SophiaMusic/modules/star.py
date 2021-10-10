@@ -40,7 +40,7 @@ Saya memutar musik di Obrolan Suara Telegram.
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**✨ {PROJECT_NAME} SEDANG ONLINE ✨**""",
+      await message.reply_text("""**✨BOT GLITTER SEDANG ONLINE✨**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
