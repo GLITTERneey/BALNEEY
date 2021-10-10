@@ -31,7 +31,7 @@ Saya memutar musik di Obrolan Suara Telegram.
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ TAMBAHKAN SAYA KE GROUP ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+                        "➕ TAMBAHKAN SAYA KE GROUP ➕", url="https://t.me/{BOT_USERNAME}?startgroup=true"
                     )]
             ]
         ),
