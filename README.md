@@ -1,4 +1,4 @@
-<h2 align="centre">BALNEEY MUSIC </h2>
+<h2 align="centre">BALNEEY MUSIC V1 </h2>
 
 ### Bot yang dapat memutar musik di Grup Telegram dan Obrolan Suara Channel
 
