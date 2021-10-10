@@ -739,7 +739,7 @@ async def ytplay(_, message: Message):
     except:
         for administrator in administrators:
             if administrator == message.from_user.id:
-                if message.chat.title.startswith("Channel Music: "):
+                if message.chat.title.startswith("CHANNEL MUSIC: "):
                     await lel.edit(
                         "<b>Ingatlah untuk menambahkan pembantu ke saluran Anda</b>",
                     )
