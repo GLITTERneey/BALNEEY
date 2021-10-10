@@ -2,7 +2,7 @@
 
 ### Bot yang dapat memutar musik di Grup Telegram dan Obrolan Suara Channel
 
-### tersedia di telegram sebagai [KAYOSHIMUSIC](https://t.me/DemusGlitterBot)
+### tersedia di telegram sebagai [GLITTERMUSIC](https://t.me/DemusGlitterBot)
 
 <h4 align="center">A Powerful, Smart And Simple Group Manager <br> ... Written with AioGram , Pyrogram and Telethon...</h4>
 <p align='center'>
