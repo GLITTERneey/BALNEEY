@@ -1029,7 +1029,7 @@ async def lol_cb(b, cb):
     if cb.from_user.id != useer_id:
         await cb.answer("Anda bukan orang yang meminta untuk memutar lagu!", show_alert=True)
         return
-    await cb.message.edit("SABAR DLU YA KNTL")
+    await cb.message.edit("😋 SABAR NAPA SAYANG 😋")
     x=int(x)
     try:
         useer_name = cb.message.reply_to_message.from_user.first_name
@@ -1072,7 +1072,7 @@ async def lol_cb(b, cb):
                 InlineKeyboardButton("📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/storeglitter"),
                 InlineKeyboardButton("✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Jarak_Virtual"),
             ],
-            [InlineKeyboardButton("👑 OWNER", url=f"https://t.me/Biarenakliatnyaaa")],
+            [InlineKeyboardButton("✨ OWNER", url=f"https://t.me/Biarenakliatnyaaa")],
         ]
     )
     requested_by = useer_name
